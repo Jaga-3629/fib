@@ -1,0 +1,12 @@
+list1=[1,2,3,4]
+list2=[]
+list2=list1[:]
+print(list2)
+tup1=(1,2,3,4,5)
+print(tup1[:2]+tup1[3:])
+dicte={"name":"Anand","Age":54,"Native":"Sivaganga","Hobby":"Playing"}
+dicte.pop("Age")
+dicte.popitem()
+print(dicte)
+dicte.clear()
+print(dicte)
